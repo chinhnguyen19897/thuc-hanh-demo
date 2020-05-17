@@ -1,0 +1,35 @@
+:root {
+	--white-color:#fff ;
+	--color-button:#3bafbe;
+	--color-black: #000;
+	--color-grey: #4a4a4a;
+	--color-icon: #ee802f;
+	--color-header: #e2e2e2;
+	--text-color: #999999;
+}
+* {
+	box-sizing: inherit;
+}
+html {
+	font-family: Georgia,sans-serif;
+	font-size: 62.5%;
+	line-height: 1.6rem;
+}
+
+p {
+	font-size: 1.4rem;
+
+}
+
+.grid {
+	width: 1200px;
+	max-width: 100%;
+	margin: 0 auto; 
+}
+.grid_full--width {
+	width: 100%;
+}
+.grid_row {
+	display: flex;
+	flex-wrap: wrap;
+}
